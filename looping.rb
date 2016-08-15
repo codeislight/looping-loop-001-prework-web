@@ -1,5 +1,10 @@
-def looping
-	#your code here
-end
+looping = 0
 
-#call your method here
+loop do
+  looping += 1
+  puts "Wingardium Leviosa #{looping}"
+  if looping >= 144
+    break
+  end
+end
+puts "Alas! My levitation spell works!"
