@@ -7,4 +7,4 @@ loop do
     break
   end
 end
-puts "Alas! My levitation spell works!"
+puts "At last! My levitation spell works!"
